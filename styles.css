@@ -111,3 +111,18 @@ footer {
     color: #ccc;
     font-size: 0.9rem;
 }
+
+.btn {
+    display: inline-block;
+    background-color: #d4af37; /* Couleur or */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #b8860b; /* Couleur or foncé */
+  }
