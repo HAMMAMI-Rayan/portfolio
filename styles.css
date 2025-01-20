@@ -193,3 +193,30 @@ footer a {
     content: "✔️ ";
     color: #FFD700;
 }
+
+.projet {
+    max-width: 40%;
+    height: auto;
+    position: relative;
+    display: inline-block; /* Permet d’être à côté du texte */
+    vertical-align: middle; /* Aligne l’image verticalement */
+    margin-right: -auto; /* Espace entre l'image et le texte */
+  }
+  
+  .text {
+    display: inline-block; /* Place le texte à côté de l’image */
+    vertical-align: middle; /* Aligne le texte avec l’image */
+    font-size: 18px;
+    color: #ffffff;
+    width: 50%; /* Ajuste la largeur du texte */
+  }
+
+/* Pour inverser l'ordre de la deuxième section */
+.text-inverse {
+    text-align: right; /* Aligne le texte à droite */
+    margin-right: 20px;
+  }
+  
+  .projet-inverse {
+    margin-left: 20px; /* Espace entre le texte et l'image */
+  }
